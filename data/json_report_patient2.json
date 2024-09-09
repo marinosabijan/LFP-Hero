@@ -1,0 +1,110 @@
+{
+	"DiagnosticData": {
+	  "LfpFrequencySnapshotEvents": [
+		{
+		  "DateTime": "2024-09-02T09:00:00Z",
+		  "EventID": 1,
+		  "EventName": "Dyskinesia",
+		  "Cycling": false,
+		  "LFP": true,
+		  "LfpFrequencySnapshotEvents": {
+			"HemisphereLocationDef.Left": {
+			  "Frequency": [2, 4, 6, 9, 12, 15, 18, 22, 28, 35, 45, 55, 65, 75, 90, 110],
+			  "FFTBinData": [0.14, 0.18, 0.24, 0.28, 0.34, 0.39, 0.43, 0.49, 0.52, 0.57, 0.61, 0.68, 0.72, 0.78, 0.82, 0.87],
+			  "GroupId": 1,
+			  "SenseID": "Sense007"
+			},
+			"HemisphereLocationDef.Right": {
+			  "Frequency": [2, 4, 6, 9, 12, 15, 18, 22, 28, 35, 45, 55, 65, 75, 90, 110],
+			  "FFTBinData": [0.15, 0.19, 0.25, 0.3, 0.36, 0.41, 0.46, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9],
+			  "GroupId": 2,
+			  "SenseID": "Sense008"
+			}
+		  }
+		},
+		{
+		  "DateTime": "2024-09-02T09:30:00Z",
+		  "EventID": 2,
+		  "EventName": "Unsteady Gait",
+		  "Cycling": true,
+		  "LFP": false,
+		  "LfpFrequencySnapshotEvents": {
+			"HemisphereLocationDef.Left": {
+			  "Frequency": [1, 5, 10, 15, 20, 25, 30, 35, 40, 50, 60, 70, 80, 90, 100, 120],
+			  "FFTBinData": [0.13, 0.17, 0.21, 0.25, 0.31, 0.37, 0.42, 0.46, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85],
+			  "GroupId": 3,
+			  "SenseID": "Sense009"
+			},
+			"HemisphereLocationDef.Right": {
+			  "Frequency": [1, 5, 10, 15, 20, 25, 30, 35, 40, 50, 60, 70, 80, 90, 100, 120],
+			  "FFTBinData": [0.16, 0.2, 0.26, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9],
+			  "GroupId": 4,
+			  "SenseID": "Sense010"
+			}
+		  }
+		},
+		{
+		  "DateTime": "2024-09-02T10:00:00Z",
+		  "EventID": 3,
+		  "EventName": "Freezing",
+		  "Cycling": true,
+		  "LFP": true,
+		  "LfpFrequencySnapshotEvents": {
+			"HemisphereLocationDef.Left": {
+			  "Frequency": [3, 6, 9, 12, 18, 24, 30, 36, 42, 50, 65, 75, 85, 95, 105, 125],
+			  "FFTBinData": [0.18, 0.22, 0.27, 0.32, 0.38, 0.43, 0.48, 0.52, 0.57, 0.62, 0.68, 0.73, 0.78, 0.83, 0.88, 0.93],
+			  "GroupId": 5,
+			  "SenseID": "Sense011"
+			},
+			"HemisphereLocationDef.Right": {
+			  "Frequency": [3, 6, 9, 12, 18, 24, 30, 36, 42, 50, 65, 75, 85, 95, 105, 125],
+			  "FFTBinData": [0.19, 0.25, 0.3, 0.35, 0.4, 0.46, 0.5, 0.55, 0.6, 0.65, 0.7, 0.76, 0.8, 0.85, 0.9, 0.95],
+			  "GroupId": 6,
+			  "SenseID": "Sense012"
+			}
+		  }
+		}
+	  ],
+	  "LFPTrendLogs": {
+		"HemisphereLocationDef.Left": {
+		  "2024-09-02": [
+			{
+			  "DateTime": "2024-09-02T09:00:00Z",
+			  "LFP": 0.38,
+			  "AmplitudeInMilliAmps": 1.7
+			},
+			{
+			  "DateTime": "2024-09-02T09:30:00Z",
+			  "LFP": 0.42,
+			  "AmplitudeInMilliAmps": 1.9
+			},
+			{
+			  "DateTime": "2024-09-02T10:00:00Z",
+			  "LFP": 0.44,
+			  "AmplitudeInMilliAmps": 2.0
+			}
+		  ]
+		},
+		"HemisphereLocationDef.Right": {
+		  "2024-09-02": [
+			{
+			  "DateTime": "2024-09-02T09:00:00Z",
+			  "LFP": 0.47,
+			  "AmplitudeInMilliAmps": 2.1
+			},
+			{
+			  "DateTime": "2024-09-02T09:30:00Z",
+			  "LFP": 0.5,
+			  "AmplitudeInMilliAmps": 2.3
+			},
+			{
+			  "DateTime": "2024-09-02T10:00:00Z",
+			  "LFP": 0.52,
+			  "AmplitudeInMilliAmps": 2.5
+			}
+		  ]
+		}
+	  }
+	}
+  }
+  
